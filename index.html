@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article's</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <section class="main text-center text-primary bg-dark">
+        <br>
+        <h1 class="text-uppercase text-secondary">Article Generator</h1>
+        <div id="article" class="bg-light article rounded ">
+            <h2 id="title" class="title border border-success"></h2>
+            <img src="" id="pic" class="pic rounded" width="300" height="300"></img>
+            <div id="summary" class="summary text-dark"></div>
+            <button class="btn btn-outline-info" id="readmore" onclick="getArticle(1)">Read More</button>
+        </div>
+        <button type="button" id="gen" onclick="getArticle(0)" class="btn btn-primary btn-lg">Generate</button>
+        <br>
+        <div class="links text-info text-justify text-decoration-none m-2 p-2 align-text-bottom">
+            <a href="https://github.com/PranayGv"><i class="fa-brands fa-github"></i></a>
+            <a href="https://pranaygv.github.io/react-portfolio/"><i class="fa-solid fa-address-card"></i></a>
+            <a href="https://www.instagram.com/pranay_2411/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="text-">© PranayGV. All rights reserverd.</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
